@@ -11,7 +11,7 @@
 return newarray;
 }
 
-void NewArray1d(string[] array){                   
+void NewArray1d(string[] array){                   //Вывод нового массива
     for(int i=0; i<array.Length; i++){
         Console.WriteLine(array[i] + " " );
     }
